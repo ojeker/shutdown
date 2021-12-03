@@ -6,8 +6,8 @@
 		<string>ch.uncoyote.shutdown</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/usr/bin/echo</string>
-      <string>charlie</string>
+      <string>/usr/bin/say</string>
+      <string>beep</string>
     </array>
     <key>StartInterval</key>
     <integer>2</integer>
