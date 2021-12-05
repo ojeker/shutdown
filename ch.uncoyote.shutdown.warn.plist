@@ -3,20 +3,19 @@
 <plist version="1.0">
 	<dict>
 		<key>Label</key>
-		<string>ch.uncoyote.shutdown</string>
+		<string>ch.uncoyote.shutdown.warn</string>
     <key>ProgramArguments</key>
     <array>
-      <string>shutdown</string>
-      <string>-h</string>
-      <string>now</string>
+      <string>say</string>
+      <string>Achtung, der Computer wird in fünf minuten um zehn uhr heruntergefahren[[slnc:120000]]Achtung, der Computer wird in drei minuten um zehn uhr heruntergefahren</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>
       <dict>
         <key>Hour</key>
-        <integer>22</integer>
+        <integer>21</integer>
         <key>Minute</key>
-        <integer>00</integer>
+        <integer>55</integer>
       </dict>
     </array>
 	</dict>
